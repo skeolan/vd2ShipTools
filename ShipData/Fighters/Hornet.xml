@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Hornet"/> 
+<objectID attr1="hornet"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="light"/>
+<meshName attr1="Hornet.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A light fighter."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Originally a utility ship, the Hornet has been modified for combat."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Armed with two light projectile guns, the low cost of this ship is its main appeal."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Charged blast."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A reminder of its days as a utility ship on clean up duty. For best results, be sure that the weapon is fully charged before fire. Due to the hyper velocity of the slug, leading a target is counter productive."/>
+<creditCost attr1="12500"/>
+<cruiseSpeed attr1="120.0"/> 
+<timeTillCruise attr1="1.25"/> 
+<yaw 	attr1="70.0"/> 
+<pitch	attr1="70.0"/> 
+<roll 	attr1="90.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="0" z="6.5"/>
+<cockpitActualMesh attr1="cockpitHornet.mesh"/>
+<cockpitInitPos x="0" y="5.1" z="7.2"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="10" z="53"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="350.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="-20.0"/> 
+    <roll attr1="75.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-4.341" y="0.955" z="3.368"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="hornetD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="-0.01" y="1.8" z="9.2"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="0" y="-0.3" z="7"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6"/> 
+    <capacity attr1="3.75"/>
+    <recharge attr1="5"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bPlayerSharedFire attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="hornetPG"/> 
+	<weaponPosition x="4.12" y="0.98" z="-2.5"/>
+	<weaponPosition x="-4.12" y="0.98" z="-2.5"/>
+	<barrelDelay attr1="0.07"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="hLCG"/> 
+	<weaponPosition x="4.12" y="0.98" z="-2.5"/>
+	<weaponPosition x="-4.12" y="0.98" z="-2.5"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+    <upgradeID attr1="hornetlDT00"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="sReloadRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield00"/>
+	<upgradeID attr1="burnerCap00"/>	
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="lightFighterPUS00"/>
+	<upgradeID attr1="lightFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="1.5" z="-5.33"/>

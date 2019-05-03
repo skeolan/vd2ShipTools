@@ -1,0 +1,35 @@
+{{Ship|title1 = __Name|image1 = __NAME.png|row1 = __Class|row2 = __ClassSize|row3 = 30000|row4 = 650|row5 = 0|row6 = 0|row7 = 180|row8 = 1.25 seconds|row9 = 100|row10 = 100|row11 = 100|row12 = Installed|row13 = 7.5|row14 = 7.5|row15 = 6.5|row16 = 1 (cant board fighters)|row17 = 1|row18 = 2|row19 = 1}}
+Interceptor is a Medium Fighter of Kind faction. It is equipped with automatic rail gun. It is fast and nimble, but has low hp. It cannot be equipped with a shield generator. It has no unique upgrades.
+
+Ingame description: "''A medium fighter.''
+
+''The Interceptor is a Stub base defense ship.''
+
+''Equipped with incredibly powerful engines and armed with a hyper velocity rail gun, the Interceptor is optimized for speed.''
+
+''Base defense, in Stub terms, means the elimination of any individual who decides not to go trough the conversion process, after the agreed upon point of no return.''"
+
+== Usage and tactics ==
+Interceptor is an extremely agile ship. It is great for beginners, due to the fact that its a fast point and shoot ship for a low cost. Its railgun isnt the strongest in the game, but it has an advantage over projectile guns which is its projectile speed. Since railgun projectiles hit in an instant, you dont have to lead the target. In AI hands, its a mediocre ship. It has no secondary weapons which maximizes the AI potentional on this ship, but its main weapon is weak and fires small amount of projectiles, which makes it ineffective with Crew Killer Ammo.
+
+== List of upgrades ==
+
+=== Weapons ===
+* Ammo Capacity (Cost: 2050)
+* Re-Firerate Booster (Cost: 1960)
+* ACTIVE - Missile - Anti-Fighter (Cost: 4500)
+==== Engineering ====
+* U.N.O. Overhaul (Cost: 5500)
+* Gate Travel - Refuel (Cost: 2250)
+* Armor Plating - Light (Cost: 4000)
+* ACTIVE - Armor Boost (Cost: 2250)
+* ACTIVE - Rapid Repair (Cost: 13500)
+==== Engines ====
+* Additional Fuel Capacity (Cost: 3300)
+* Afterburner Capacity (Cost: 1750)
+* ACTIVE - Forward Thrust (Cost: 3500)
+* ACTIVE - Gravity Drive Trigger (Cost: 6400)
+* Engine Optimization (Cost: 2750)
+
+== Trivia ==
+* wip

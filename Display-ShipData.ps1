@@ -64,6 +64,14 @@ function Get-Attr()
     $ship.$attrName.attr1
 }
 
+# Ship capture modifiers
+$CV_CIV_MOD = 1.0    # Default -- Civilian, MU, Player, Hazard Inc
+$CV_IND_MOD = 1.05   # Independent pirates
+$CV_PIR_MOD = 1.1    # Pirates, Beggars, Reborn
+$CV_MER_MOD = 1.2    # Kind, Stubs, Pride
+$CV_MIL_MOD = 1.5    # TSF
+$CV_OUT_MOD = 999999 # Outsiders -- Impossible to capture
+
 function Get-NestedAttr()
 {
     param(
@@ -83,6 +91,18 @@ function Get-CaptureResistance()
         $Faction
     )
 
+    $factionMultiplierLookup = @{
+        [Faction]::Beggar   = $CV_PIR_MOD
+        [Faction]::Civilian = $CV_CIV_MOD
+        [Faction]::Kind     = $CV_MER_MOD
+        [Faction]::Outsider = $CV_OUT_MOD
+        [Faction]::Reborn   = $CV_PIR_MOD
+        [Faction]::MU       = $CV_CIV_MOD
+        [Faction]::Pride    = $CV_MER_MOD
+        [Faction]::TSF      = $CV_MIL_MOD
+        [Faction]::Player   = $CV_CIV_MOD
+    }
+    
     #Return
     "TODO"
 }
